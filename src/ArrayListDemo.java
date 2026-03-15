@@ -25,6 +25,8 @@ public class ArrayListDemo {
         System.out.println(list);
         System.out.println("Array List size is " + list.size());
 
+
+
         /*Field elementData = ArrayList.class.getDeclaredField("elementData");
         elementData.setAccessible(true);
         Object[] obj = (Object[]) elementData.get(list);
@@ -38,6 +40,15 @@ public class ArrayListDemo {
         List<String> list2 = List.of("A", "B", "C","D");
         System.out.println(list2);
 
+        // List to array
+        List<Integer> intList = new ArrayList<>();
+        intList.add(1);
+        intList.add(2);
+        intList.add(3);
+
+        Object[] array = intList.toArray();
+        Integer[] array1 = intList.toArray(new Integer[0]);
+        System.out.println(array1[1]);
 
 
     }
