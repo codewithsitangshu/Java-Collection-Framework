@@ -75,7 +75,7 @@ Map (separate hierarchy)
 └── ConcurrentMap
 ```
 
-![Alt text](Java-Collection-Framework-Hirarchy.png "Java-Collection-Framework-Hirarchy")
+![Alt text](img/Java-Collection-Framework-Hirarchy.png "Java-Collection-Framework-Hirarchy")
 
 ---
 
